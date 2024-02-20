@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #af2020;
+    overflow: hidden;
+    position: fixed;
+   
+}
+
+nav a {
+    
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #752a2a;
+    color: black;
+}
+
+/* .p-container{
+    
+    display: flex;
+    align-items: center;
+    background-color: #000600;
+    background-attachment:fixed ;
+    height: 400px;
+    width: 100%;
+    
+} */
+.c-child1{
+    margin-left: 1rem;
+    margin-top: 5rem;
+    background-color: rgb(39, 116, 184);
+    height: 280px;
+    width: 50%;
+    line-height: 2;
+}
+.button{
+    background-color: aqua;
+    border-radius: 10px;
+    color: red;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+.c-child2{
+    margin-top: 5rem;
+    background-color: rgb(19, 94, 159);
+    background-image:  url(./ANGVI.jpg);
+    background-size: cover;
+    height: 280px;
+    width: 50%;
+}
+.span-v{
+    color: red;
+}
+.container{
+    background-image: linear-gradient(#000600, #0006), url(./vin.jpg);
+    
+    margin-top: 5rem;
+    background-size: contain;
+    background-attachment: fixed;
+    height: 350px;
+    width: 100%;
+}
+.container1{
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* background-color: rgb(154, 154, 218); */
+    height: 165px;
+    width: 100%;
+}
+.container2{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* background-color: red; */
+    height: 300px;
+    width: 100%;
+}
+.child1{
+    background-color: aqua;
+    width: 30%;
+    height: 150px;
+    background-image: url(./vin.jpg);
+    background-image:  url(./anve.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.child2{
+    background-color: green;
+    width: 30%;
+    height: 150px;
+    background-image: url(./vean.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.child3{
+    background-color: black;
+    width: 30%;
+    height: 150px;
+    background-image: url(./AN.jpg);
+    background-size: contain;
+    border-radius: 10px;
+}
+.child4{
+    background-color: yellow;
+    width: 30%;
+    height: 150px;
+    background-image: url(./ANGVI.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.child5{
+    background-color: green ;
+    width: 30%;
+    height: 150px;
+    background-image: url(./anve.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.child6{
+    background-color: blue;
+    background-image: url(./vin.jpg);
+    background-size: cover;
+    width: 30%;
+    height: 150px;
+    border-radius:10px ;
+}
+button{
+    padding: 10px;
+    border-radius: 15%;
+    background-color: #af2020;
+    color: #ddd;
+}
+button:hover{
+    background-color: green;
+    color: rgb(221, 229, 221);
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+button{
+    padding: 0.2rem;
+}
+.head-1{
+    display: flex;
+    background-color: #f7ecec;
+}
